@@ -5,6 +5,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 /*
 	rebase demo iin kmayer10 repo
 */
+/*
+	rebase demo iin kmayer10 repo by Shivom
+*/
 
 /**
  * @author Kulbhushan Mayer Thinknyx Technologies LLP
@@ -56,7 +59,7 @@ public class RunTestGoogleLogin {
             // Wait a little bit (7000 milliseconds)
             Thread.sleep(15000);
 
-            // Check whether the h1 equals ìDashboardî
+            // Check whether the h1 equals ‚ÄúDashboard‚Äù
             if (webDriver.findElement(By.tagName("span")).getText()
                     .equals("Invalid Login or password.")) {
                 return true;
